@@ -41,7 +41,7 @@ cp $PROJ_PATH/order/target/order.war $TOMCAT_APP_PATH/webapps/
 # 进入到tomcat的webapps目录
 cd $TOMCAT_APP_PATH/webapps/
 # 重命名order.war为ROOT.war
-mv order.war ROOT.war
+# mv order.war ROOT.war
 
 # 加载tomcat路径
 cd $TOMCAT_APP_PATH/
