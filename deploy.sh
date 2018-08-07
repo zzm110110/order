@@ -29,7 +29,7 @@ mvn clean package
 killTomcat
 
 # 删除ROOT目录
-rm -rf $TOMCAT_APP_PATH/webapps/ROOT
+rm -rf $TOMCAT_APP_PATH/webapps/order
 # 删除Root.war文件
 rm -f $TOMCAT_APP_PATH/webapps/ROOT.war
 # 删除order.war文件
@@ -41,7 +41,7 @@ cp $PROJ_PATH/order/target/order.war $TOMCAT_APP_PATH/webapps/
 # 进入到tomcat的webapps目录
 cd $TOMCAT_APP_PATH/webapps/
 # 重命名order.war为ROOT.war
-mv order.war ROOT.war
+#mv order.war ROOT.war
 
 # 加载tomcat路径
 #cd $TOMCAT_APP_PATH/
