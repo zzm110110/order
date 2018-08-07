@@ -23,7 +23,7 @@ killTomcat()
 # 进入order工程根目录
 cd $PROJ_PATH/order
 # 执行maven命令
-mvn clean install
+mvn clean package
 
 # 停tomcat
 killTomcat
