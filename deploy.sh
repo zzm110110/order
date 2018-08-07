@@ -26,7 +26,7 @@ cd $PROJ_PATH/order
 mvn clean package
 
 # 停tomcat
-killTomcat
+#killTomcat
 
 # 删除ROOT目录
 rm -rf $TOMCAT_APP_PATH/webapps/order
