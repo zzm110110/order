@@ -44,9 +44,9 @@ cd $TOMCAT_APP_PATH/webapps/
 #mv order.war ROOT.war
 
 # 加载tomcat路径
-#cd $TOMCAT_APP_PATH/
+cd $TOMCAT_APP_PATH/
 # 启动Tomcat
-#sh bin/startup.sh
+sh bin/startup.sh
 
 
 
